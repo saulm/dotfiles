@@ -1,0 +1,56 @@
+
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.antialias: 1
+Xft.hinting:   1
+Xft.hintstyle: hintfull
+Xft.rgba:      rgb
+Xft.dpi:      192
+
+*foreground: #D7D0C7
+*background: #151515
+!black
+! *color0:     #AF875F
+! *color8:     #AF875F
+*color0:     #101010
+*color8:     #404040
+!red
+*color1:     #E84F4F
+*color9:     #D23D3D
+!green
+*color2:     #B8D68C
+*color10:    #A0CF5D
+!yellow
+*color3:     #E1AA5D
+*color11:    #F39D21
+!blue
+*color4:     #7DC1CF
+*color12:    #4E9FB1
+!magenta
+*color5:     #9B64FB
+*color13:    #8542FF
+!cyan
+*color6:     #6D878D
+*color14:    #42717B
+!white
+*color7:     #dddddd
+*color15:    #dddddd
+*faceName: Droid Sans Mono
+*faceSize: 12
+*.font: Droid Sans Mono-12
+Emacs.font: Droid Sans Mono-12
+
+XTerm*metaSendsEscape: true
+XTerm*selectToClipboard:true
+
+XTerm*VT100.Translations: #override \
+      Ctrl Shift <Key>C: copy-selection(CLIPBOARD) \n\
+      Ctrl Shift <Key>V: insert-selection(CLIPBOARD)
+
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+XTerm*utf8: 1
+
+XTerm*VT100.cutNewLine: false
+XTerm*VT100.cutToBeginningOfLine: false
+XTerm*VT100.charClass: 33:48,35:48,37:48,42:48,45-47:48,64:48,95:48,126:48
